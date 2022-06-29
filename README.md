@@ -30,8 +30,9 @@ Also this is our project for graduate [Python od podstaw](https://sdacademy.pl/k
 ## Features
 
 - [x] Listing interesting facts on home page,
+- [x] Statistics on driving licences obtained, by Voivodeship
 - [x] CRUD on vehicles registered in Poland,
-- [x] CRUD on driving licences registered in Poland,
+- [x] Listing driving licences registered in Poland,
 
 ## Technologies & Documentation
 
@@ -151,7 +152,9 @@ Perfect! Now, it's time to last episode.
 
 ##  Run
 
-We've seen how to run venv. Keep that running!
+<summary>We've seen how to run venv. Keep that running!
+
+If you forgot open the terminal, do it now.</summary>
 
 
 <details>
@@ -174,6 +177,6 @@ python manage.py runserver      # using Windows
 exec(open('viewer/utils.py').read())        # run utils.py file
 download_data()                             # run func
 ```
-</details>
+</details></summary>
 
 And that's it! Great job!
